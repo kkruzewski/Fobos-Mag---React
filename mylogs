@@ -1,0 +1,81 @@
+kornel@macbook-pro-kornel Test4 % npm ci && npm run build  
+npm WARN deprecated @types/sass@1.45.0: This is a stub types definition. sass provides its own type definitions, so you do not need this installed.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+
+added 601 packages, and audited 602 packages in 4s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+3 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> demo1@8.2.3 build
+> tsc && vite build
+
+vite v4.5.2 building for production...
+✓ 1153 modules transformed.
+dist/index.html                                    1.73 kB │ gzip:   0.83 kB
+dist/assets/fa-v4compatibility-0db31bef.woff2      4.96 kB
+dist/assets/fa-v4compatibility-86a687cf.ttf       10.56 kB
+dist/assets/la-regular-400-51ca2c00.woff2         12.90 kB
+dist/assets/fonticon-18f74175.woff2               13.85 kB
+dist/assets/la-regular-400-7711fabc.woff          15.49 kB
+dist/assets/fonticon-b8cf9703.woff                16.39 kB
+dist/assets/fa-regular-400-6a274e76.woff2         23.94 kB
+dist/assets/fonticon-4a890608.ttf                 29.52 kB
+dist/assets/fonticon-8308cb17.eot                 29.68 kB
+dist/assets/la-regular-400-4b6ab8d0.ttf           33.72 kB
+dist/assets/la-regular-400-7dc456f0.eot           33.92 kB
+dist/assets/socicon-165def3c.woff                 38.70 kB
+dist/assets/socicon-459f0cf2.ttf                  52.43 kB
+dist/assets/socicon-8c3f98a9.eot                  52.59 kB
+dist/assets/fa-regular-400-4e96a7e0.ttf           60.52 kB
+dist/assets/la-brands-400-ff70c9bc.woff2          84.77 kB
+dist/assets/la-solid-900-10a68e01.woff2           96.75 kB
+dist/assets/la-brands-400-14c63377.woff           98.67 kB
+dist/assets/fa-brands-400-404c746c.woff2         105.54 kB
+dist/assets/la-regular-400-884ce19c.svg          113.54 kB │ gzip:  29.45 kB
+dist/assets/la-solid-900-a0d21b2a.woff           125.42 kB
+dist/assets/bootstrap-icons-476adf42.woff2       130.40 kB
+dist/assets/socicon-26da6c50.svg                 131.29 kB │ gzip:  50.15 kB
+dist/assets/fa-solid-900-d76fb4e8.woff2          154.23 kB
+dist/assets/la-brands-400-fbc98702.ttf           156.07 kB
+dist/assets/la-brands-400-c0e32387.eot           156.26 kB
+dist/assets/keenicons-solid-d7c401bf.ttf         165.13 kB
+dist/assets/keenicons-solid-a2fd1d7c.woff        165.21 kB
+dist/assets/keenicons-solid-8a034a31.eot         165.30 kB
+dist/assets/bootstrap-icons-bb1de989.woff        176.03 kB
+dist/assets/fa-brands-400-e523f49c.ttf           181.85 kB
+dist/assets/keenicons-duotone-740f0553.ttf       187.50 kB
+dist/assets/keenicons-duotone-87f7b16c.woff      187.58 kB
+dist/assets/keenicons-duotone-3c424aac.eot       187.66 kB
+dist/assets/la-solid-900-07ce3559.ttf            226.13 kB
+dist/assets/la-solid-900-8a57f8a9.eot            226.31 kB
+dist/assets/fonticon-8484a906.svg                242.76 kB │ gzip:  77.27 kB
+dist/assets/keenicons-outline-defe149d.ttf       246.76 kB
+dist/assets/keenicons-outline-9f700be7.woff      246.84 kB
+dist/assets/keenicons-outline-2868f722.eot       246.93 kB
+dist/assets/fa-solid-900-03f2986c.ttf            388.46 kB
+dist/assets/keenicons-duotone-aed9a1c9.svg       690.27 kB │ gzip: 213.17 kB
+dist/assets/keenicons-solid-88aa7d26.svg         695.43 kB │ gzip: 237.73 kB
+dist/assets/la-solid-900-0ce0cc40.svg            923.15 kB │ gzip: 296.57 kB
+dist/assets/la-brands-400-4da18191.svg           927.34 kB │ gzip: 304.36 kB
+dist/assets/keenicons-outline-8d93b0ca.svg     1,058.68 kB │ gzip: 375.38 kB
+dist/assets/index-5cc90a4d.css                 1,969.56 kB │ gzip: 223.88 kB
+dist/assets/ChartsWidget1-ebd158b6.js              6.17 kB │ gzip:   1.55 kB
+dist/assets/TablesWidget1-15aaf868.js              6.49 kB │ gzip:   0.97 kB
+dist/assets/FeedsWidget6-599c8932.js              14.90 kB │ gzip:   1.86 kB
+dist/assets/WizardsPage-6049c563.js               25.11 kB │ gzip:   4.21 kB
+dist/assets/ChatPage-efe777ef.js                  26.92 kB │ gzip:   2.94 kB
+dist/assets/ProfilePage-c5cba011.js               41.31 kB │ gzip:  10.00 kB
+dist/assets/AccountPage-bd60c7e2.js               71.24 kB │ gzip:  13.16 kB
+dist/assets/UsersPage-8cc6577a.js                 95.37 kB │ gzip:  27.69 kB
+dist/assets/WidgetsPage-cb330dc9.js              197.63 kB │ gzip:  14.76 kB
+dist/assets/index-86fbfbce.js                  1,728.91 kB │ gzip: 478.74 kB
+✓ built in 6.68s
+kornel@macbook-pro-kornel Test4 % serve -s dist   
