@@ -1,0 +1,47 @@
+[debug] [2024-02-06T21:03:51.580Z] ----------------------------------------------------------------------
+[debug] [2024-02-06T21:03:51.581Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2024-02-06T21:03:51.581Z] CLI Version:   13.1.0
+[debug] [2024-02-06T21:03:51.581Z] Platform:      darwin
+[debug] [2024-02-06T21:03:51.581Z] Node Version:  v20.11.0
+[debug] [2024-02-06T21:03:51.581Z] Time:          Tue Feb 06 2024 22:03:51 GMT+0100 (GMT+01:00)
+[debug] [2024-02-06T21:03:51.581Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-06T21:03:51.609Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-06T21:03:51.609Z] > authorizing via signed-in user (kkruzewski@fobos-one.com.pl)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/kornelkruzewski/Documents/FobosOne/React/Test4
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-06T21:04:10.134Z] Using project from CLI flag: fobos-mag
+[debug] [2024-02-06T21:04:10.136Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fobos-mag [none]
+[debug] [2024-02-06T21:04:11.587Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fobos-mag 200
+[debug] [2024-02-06T21:04:11.588Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fobos-mag {"projectId":"fobos-mag","projectNumber":"75442095978","displayName":"Fobos Mag","name":"projects/fobos-mag","resources":{"hostingSite":"fobos-mag","realtimeDatabaseInstance":"fobos-mag-default-rtdb"},"state":"ACTIVE","etag":"1_8908987c-9023-4d76-b925-65003de0948b"}
+[info] i  Using project fobos-mag (Fobos Mag) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-06T21:04:11.596Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fobos-mag [none]
+[debug] [2024-02-06T21:04:12.106Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fobos-mag 200
+[debug] [2024-02-06T21:04:12.106Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fobos-mag {"projectId":"fobos-mag","projectNumber":"75442095978","displayName":"Fobos Mag","name":"projects/fobos-mag","resources":{"hostingSite":"fobos-mag","realtimeDatabaseInstance":"fobos-mag-default-rtdb"},"state":"ACTIVE","etag":"1_8908987c-9023-4d76-b925-65003de0948b"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
